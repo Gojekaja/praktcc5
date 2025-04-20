@@ -2,7 +2,7 @@ import { Sequelize } from "sequelize";
 
 // Nyambungin db ke BE
 const db = new Sequelize("tugas2", "root", "", {
-  host: "localhost",
+  host: "34.173.159.171",
   dialect: "mysql",
 });
 
