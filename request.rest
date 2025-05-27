@@ -1,0 +1,25 @@
+GET http://localhost:5000/notes
+
+###
+
+POST http://localhost:5000/add-notes 
+Content-Type: application/json
+
+{
+    "pengirim": "tesi",
+    "notes": "tes tes"
+}
+
+### 
+
+PUT http://localhost:5000/edit-notes/2
+Content-Type: application/json
+
+{
+    "pengirim": "tesi",
+    "notes": "muahahah"
+}
+
+###
+
+DELETE http://localhost:5000/delete-notes/1
